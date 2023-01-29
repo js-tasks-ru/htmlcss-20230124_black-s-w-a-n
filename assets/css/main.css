@@ -1,5 +1,7 @@
 @import '../fonts/fonts.css';
 
+@import '../../components/page/page.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
