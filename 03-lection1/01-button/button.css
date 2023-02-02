@@ -1,1 +1,197 @@
-/* Стилизация кнопки */
+
+     
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+   
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+    
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+    
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+    
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+    
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+   
+  details {
+    display: block;
+  }
+    
+  summary {
+    display: list-item;
+  }
+  
+  template {
+    display: none;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+  
+.button {   
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;  
+}
+
+.buttonText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.button__primary { 
+       
+    width: 189px;   
+    height: 48px;
+    border-radius: 8px;
+    margin: 20px 20px;
+
+    background: var(--blue);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button__primary.hover:hover{   
+    
+    background: #2342C0;
+    transition: background 200ms ease-in-out;
+}
+
+.button__primary:disabled {    
+
+    background: #4263EB;
+    opacity: 0.5;
+    transition: opacity 200ms ease-in-out;
+    cursor: default;
+}
+
+.button__secondary {    
+    
+    width: 189px;   
+    height: 48px;
+    border-radius: 8px;
+    margin: 20px 20px;
+
+    background: var(--purple); 
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button__secondary.hover:hover {       
+
+    background: #5028C6;
+    transition: background 200ms ease-in-out;
+}
+
+.button__secondary:disabled {    
+    
+    background: #7048E8;
+    opacity: 0.5;
+    transition: opacity 200ms ease-in-out;
+    cursor: default;
+}
+
+.button__alternate {
+
+    width: 189px;   
+    height: 48px;
+    border-radius: 8px;
+    margin: 20px 20px;   
+    
+    border: 1px solid #ACB5BD;
+    color: #495057;
+    cursor: pointer;
+}
+
+.button__alternate.hover:hover {
+    
+    box-sizing: border-box;
+    border: 1px solid #212429;
+}
+
+.button__alternate:disabled {   
+    
+    border: 1px solid #ACB5BD;
+    color: #495057;
+    opacity: 0.5;
+    transition: opacity 200ms ease-in-out;
+    cursor: default;
+}
+
+.buttonText__text {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 35px 35px;
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #ACB5BD;
+}
+
+.sidebar__text {
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    margin-right: 250px;
+    margin-top: 20px;
+    color: #212429;
+}
