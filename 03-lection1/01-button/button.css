@@ -72,7 +72,6 @@ body {
 .button {   
     
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 
     font-family: 'Roboto';
@@ -84,10 +83,8 @@ body {
 }
 
 .buttonText {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: stretch;
+    display: flex;    
+    flex-direction: column;    
 }
 
 .button__primary { 
@@ -98,7 +95,7 @@ body {
     margin: 20px 20px;
 
     background: var(--blue);
-    color: #FFFFFF;
+    color: var(--white);
     cursor: pointer;
 }
 
@@ -124,7 +121,7 @@ body {
     margin: 20px 20px;
 
     background: var(--purple); 
-    color: #FFFFFF;
+    color: var(--white);
     cursor: pointer;
 }
 
@@ -149,7 +146,7 @@ body {
     border-radius: 8px;
     margin: 20px 20px;   
     
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     color: #495057;
     cursor: pointer;
 }
@@ -162,7 +159,7 @@ body {
 
 .button__alternate:disabled {   
     
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     color: #495057;
     opacity: 0.5;
     transition: opacity 200ms ease-in-out;
@@ -181,7 +178,7 @@ body {
     letter-spacing: 0.04em;
     text-transform: uppercase;
 
-    color: #ACB5BD;
+    color: var(--grey-3);
 }
 
 .sidebar__text {
@@ -193,5 +190,5 @@ body {
     line-height: 46px;
     margin-right: 250px;
     margin-top: 20px;
-    color: #212429;
+    color: var(--black);
 }
