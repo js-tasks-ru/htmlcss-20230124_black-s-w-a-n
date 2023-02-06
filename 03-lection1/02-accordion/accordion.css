@@ -19,8 +19,8 @@
 
     background: var(--white);  
     border: 1px solid var(--grey-3);
-    border-radius: 8px;       
-}
+    border-radius: 8px;     
+}    
 
 .accordion_summary::-webkit-details-marker {
 
@@ -40,13 +40,8 @@
 .accordion_details[open] .accordion_summary:before {
 
     content: url('Vector up.png');    
+
 }
-
-
-
-    
-
-
 
 
 
