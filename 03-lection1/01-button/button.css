@@ -48,24 +48,9 @@
     display: none;
   }
 
-body {
-    display: flex;
-    justify-content: center;
-    margin: 150px;
-    
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-}
-  
 .button {   
     
-    display: flex;
-    flex-direction: column;
+    margin: 20px 20px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -75,35 +60,26 @@ body {
     text-align: center;  
 }
 
-.buttonText {
-    display: flex;    
-    flex-direction: column;    
-}
-
 .button__primary { 
        
     width: 189px;   
     height: 48px;
     border-radius: 8px;
-    margin: 20px 20px;
 
     background: var(--blue);
     color: var(--white);
     cursor: pointer;
 }
 
-.button__primary.hover:hover{   
+.button__primary:hover{   
     
     background: #2342C0;
     transition: background 200ms ease-in-out;
 }
 
 .button__primary:disabled {    
-
-    background: #4263EB;
-    opacity: 0.5;
-    transition: opacity 200ms ease-in-out;
-    cursor: default;
+    opacity: 0.5;  
+    pointer-events: none;
 }
 
 .button__secondary {    
@@ -111,14 +87,13 @@ body {
     width: 189px;   
     height: 48px;
     border-radius: 8px;
-    margin: 20px 20px;
 
     background: var(--purple); 
     color: var(--white);
     cursor: pointer;
 }
 
-.button__secondary.hover:hover {       
+.button__secondary:hover {       
 
     background: #5028C6;
     transition: background 200ms ease-in-out;
@@ -137,14 +112,13 @@ body {
     width: 189px;   
     height: 48px;
     border-radius: 8px;
-    margin: 20px 20px;   
-    
+        
     border: 1px solid var(--grey-3);
     color: #495057;
     cursor: pointer;
 }
 
-.button__alternate.hover:hover {
+.button__alternate:hover {
     
     box-sizing: border-box;
     border: 1px solid #212429;
@@ -159,29 +133,3 @@ body {
     cursor: default;
 }
 
-.buttonText__text {
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    margin: 35px 35px;
-
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-
-    color: var(--grey-3);
-}
-
-.sidebar__text {
-   
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 46px;
-    margin-right: 250px;
-    margin-top: 20px;
-    color: var(--black);
-}
