@@ -1,53 +1,5 @@
-
-   
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-  }
-   
-  button,
-  input { /* 1 */
-    overflow: visible;
-  }
-    
-  button,
-  select { /* 1 */
-    text-transform: none;
-  }
-    
-  button::-moz-focus-inner,
-  [type="button"]::-moz-focus-inner,
-  [type="reset"]::-moz-focus-inner,
-  [type="submit"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-  }
-    
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
-  }
-   
-  details {
-    display: block;
-  }
-    
-  summary {
-    display: list-item;
-  }
   
-  template {
-    display: none;
-  }
-
+  
 .button {   
     
     margin: 20px 20px;
@@ -77,9 +29,11 @@
     transition: background 200ms ease-in-out;
 }
 
-.button__primary:disabled {    
+.button__primary:disabled {
+
     opacity: 0.5;  
     pointer-events: none;
+
 }
 
 .button__secondary {    
