@@ -28,16 +28,7 @@
     list-style: none;    
 }
 
-.accordion_summary::before {
 
-    content: url('Vector down.png');    
-}
-
-.accordion__details[open] .accordion_summary:before {
-
-    content: url('Vector up.png');    
-
-}
 
 
 
