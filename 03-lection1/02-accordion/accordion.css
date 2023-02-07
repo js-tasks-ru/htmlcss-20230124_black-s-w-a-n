@@ -1,13 +1,9 @@
 
-.container {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    max-width: 40%;
-}
 
-.accordion_details {     
-    
+
+.accordion__details {  
+
+    max-width: 30%;
     background: var(--white);  
     border: 1px solid var(--grey-3);
     border-radius: 8px; 
@@ -15,7 +11,7 @@
     padding: 20px;    
 }
 
-.accordion_details[open] {   
+.accordion__details[open] {   
 
     background: var(--white);  
     border: 1px solid var(--grey-3);
@@ -37,7 +33,7 @@
     content: url('Vector down.png');    
 }
 
-.accordion_details[open] .accordion_summary:before {
+.accordion__details[open] .accordion_summary:before {
 
     content: url('Vector up.png');    
 
