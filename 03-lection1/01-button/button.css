@@ -1,6 +1,6 @@
 
 .button {       
-    padding: 15px;
+    padding: 15px 15px 14px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -9,11 +9,11 @@
     text-align: center;
     cursor: pointer;   
     border-radius: 8px;
+    color: var(--white);
 }
 
 .button_primary {   
-    background: var(--blue);
-    color: var(--white);
+    background: var(--blue);   
 }
 
 .button_primary:hover{    
@@ -27,8 +27,7 @@
 }
 
 .button_secondary {  
-    background: var(--purple); 
-    color: var(--white);   
+    background: var(--purple);    
 }
 
 .button_secondary:hover {
@@ -41,8 +40,7 @@
     color: #495057;  
 }
 
-.button_alternate:hover {   
-    box-sizing: border-box;
-    border: 1px solid #212429;
+.button_alternate:hover {     
+    border-color:#212429;
 }
 
