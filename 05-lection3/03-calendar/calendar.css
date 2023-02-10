@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Sans+Pro&display=swap');
 
 .calendar {    
     width: 100%;
@@ -7,13 +5,13 @@
    
     border: 1px solid var(--primary);
     border-radius: 8px;
-    padding: 20px;
+    padding: 28px 30px 40px 28px;
    
 }
 
 .calendar__title {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 24px;
     font-family: 'Inter';
     font-size: 20px;
     line-height: 24px;   
@@ -56,6 +54,10 @@
 }
 
 .calendar__item_between_selected {
-    background: rgba(55, 79, 199, 0.5);
-   
+    background: rgba(55, 79, 199, 0.5);   
+}
+
+.calendar_day {
+    font-size: 14px;
+    color: #90A0B7;
 }
