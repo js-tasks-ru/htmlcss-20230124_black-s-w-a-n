@@ -17,17 +17,17 @@
   justify-content: space-between;     
 }
 
-.histogram_orders {  
+.histogram__orders {  
   color: var(--black);
   opacity: 0.8;
 }
 
-.histogram_view {
+.histogram__view {
   text-align: right;
   color: var(--primary);
 }
 
-.histogram_sum {
+.histogram__sum {
   color: var(--black);
   padding-top: 6px;
 }
@@ -40,62 +40,21 @@
    padding-top: 10px;    
 }
 
-.col_1 {  
+.histogram__table_col-large {  
     width: 20px;
     height: 50px;
     background: var(--primary);
 }
 
-.col_2 {  
+.histogram__table_col-medium {  
     width: 20px;
     height: 40px;
     background: var(--primary);
 }
 
-.col_3 {  
+.histogram__table_col-small {  
     width: 20px;
     height: 30px;
     background: var(--primary);
 }
 
-.col_4 {  
-    width: 20px;
-    height: 50px;
-    background: var(--primary);
-}
-
-.col_5 {  
-    width: 20px;
-    height: 40px;
-    background: var(--primary);
-}
-
-.col_6 {  
-    width: 20px;
-    height: 30px;
-    background: var(--primary);
-}
-
-.col_7 {  
-    width: 20px;
-    height: 50px;
-    background: var(--primary);
-}
-
-.col_8 {  
-    width: 20px;
-    height: 40px;
-    background: var(--primary);
-}
-
-.col_9 {  
-    width: 20px;
-    height: 30px;
-    background: var(--primary);
-}
-
-.col_10 {  
-    width: 20px;
-    height: 30px;
-    background: var(--primary);
-}
