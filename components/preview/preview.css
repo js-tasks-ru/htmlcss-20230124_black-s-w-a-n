@@ -11,3 +11,10 @@
     flex-wrap: wrap;
     gap: 30px;
 }
+
+@media (max-width: 768px) {
+    .preview {
+       max-height: 400px;
+       padding: 16px;
+    } 
+}
