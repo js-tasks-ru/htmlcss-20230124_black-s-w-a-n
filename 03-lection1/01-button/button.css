@@ -1,14 +1,20 @@
 
+<<<<<<< HEAD
 .button {   
     
     padding-top: 20px;
 
+=======
+.button {       
+    padding: 15px 15px 14px;
+>>>>>>> 2c9f34e0149e5d7123323024d30535e958bb5e1a
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+<<<<<<< HEAD
     cursor: pointer;
     height: 48px;
     border-radius: 8px;
@@ -24,10 +30,23 @@
 
 .button_primary:hover{   
     
+=======
+    cursor: pointer;   
+    border-radius: 8px;
+    color: var(--white);
+}
+
+.button_primary {   
+    background: var(--blue);   
+}
+
+.button_primary:hover{    
+>>>>>>> 2c9f34e0149e5d7123323024d30535e958bb5e1a
     background: #2342C0;
     transition: background 200ms ease-in-out;
 }
 
+<<<<<<< HEAD
 .button_primary:disabled {
 
     opacity: 0.5;  
@@ -44,10 +63,23 @@
 
 .button_secondary:hover {       
 
+=======
+.button:disabled {
+    opacity: 0.5;  
+    pointer-events: none;
+}
+
+.button_secondary {  
+    background: var(--purple);    
+}
+
+.button_secondary:hover {
+>>>>>>> 2c9f34e0149e5d7123323024d30535e958bb5e1a
     background: #5028C6;
     transition: background 200ms ease-in-out;
 }
 
+<<<<<<< HEAD
 .button_secondary:disabled {   
     
     opacity: 0.5;    
@@ -71,5 +103,14 @@
   
     opacity: 0.5;    
     pointer-events: none;
+=======
+.button_alternate {        
+    border: 1px solid var(--grey-3);
+    color: #495057;  
+}
+
+.button_alternate:hover {     
+    border-color:#212429;
+>>>>>>> 2c9f34e0149e5d7123323024d30535e958bb5e1a
 }
 
