@@ -41,3 +41,17 @@
     background: var(--blue);
     border-color: var(--blue);
 }
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control {
+    background: var(--blue);
+    border-color: var(--blue);
+    opacity: 0.3;
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control .checkbox__icon {
+    display: none;
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__title {
+    opacity: 0.3;
+}
