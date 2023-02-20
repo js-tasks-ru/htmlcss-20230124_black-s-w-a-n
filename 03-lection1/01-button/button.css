@@ -1,46 +1,75 @@
 
-.button {       
-    padding: 15px 15px 14px;
+.button {   
+    
+    padding-top: 20px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    cursor: pointer;   
+    cursor: pointer;
+    height: 48px;
     border-radius: 8px;
+
+}
+
+.button_primary {       
+    
+    background: var(--blue);
     color: var(--white);
+
 }
 
-.button_primary {   
-    background: var(--blue);   
-}
-
-.button_primary:hover{    
+.button_primary:hover{   
+    
     background: #2342C0;
     transition: background 200ms ease-in-out;
 }
 
-.button:disabled {
+.button_primary:disabled {
+
     opacity: 0.5;  
     pointer-events: none;
+
 }
 
-.button_secondary {  
-    background: var(--purple);    
+.button_secondary {       
+   
+    background: var(--purple); 
+    color: var(--white);
+   
 }
 
-.button_secondary:hover {
+.button_secondary:hover {       
+
     background: #5028C6;
     transition: background 200ms ease-in-out;
 }
 
-.button_alternate {        
-    border: 1px solid var(--grey-3);
-    color: #495057;  
+.button_secondary:disabled {   
+    
+    opacity: 0.5;    
+    pointer-events: none;
 }
 
-.button_alternate:hover {     
-    border-color:#212429;
+.button_alternate {   
+        
+    border: 1px solid var(--grey-3);
+    color: #495057;
+   
+}
+
+.button_alternate:hover {
+    
+    box-sizing: border-box;
+    border: 1px solid #212429;
+}
+
+.button_alternate:disabled {    
+  
+    opacity: 0.5;    
+    pointer-events: none;
 }
 
